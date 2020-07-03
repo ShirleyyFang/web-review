@@ -23,3 +23,7 @@ $("input[type='text']").keypress(function(event){
         //look out have to use single quote for fa fa-trash
     }
 });
+
+$(".fa-plus").click(function(){
+    $("input[type='text']").fadeToggle();
+})
